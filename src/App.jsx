@@ -11,17 +11,12 @@ import ComponentB from "./components/usecontext/example1/ComponentB.jsx";
 import ComponentC from "./components/usecontext/example1/ComponentC.jsx";
 import UserContextProvider from "./components/usecontext/context/UserContext.jsx";
 import ChannelContextProvider from "./components/usecontext/context/ChannelContext.jsx";
+import Counter1 from "./components/usereducer/Counter1.jsx";
 
 export default function App() {
   return (
       <div>
-          <UserContextProvider>
-              <ComponentA />
-              <ComponentB />
-              <ChannelContextProvider>
-                  <ComponentC />
-              </ChannelContextProvider>
-          </UserContextProvider>
+          <Counter1 />
       </div>
   )
 }
