@@ -12,11 +12,12 @@ import ComponentC from "./components/usecontext/example1/ComponentC.jsx";
 import UserContextProvider from "./components/usecontext/context/UserContext.jsx";
 import ChannelContextProvider from "./components/usecontext/context/ChannelContext.jsx";
 import Counter1 from "./components/usereducer/Counter1.jsx";
+import Counter2 from "./components/usereducer/Counter2.jsx";
 
 export default function App() {
   return (
       <div>
-          <Counter1 />
+          <Counter2 />
       </div>
   )
 }
