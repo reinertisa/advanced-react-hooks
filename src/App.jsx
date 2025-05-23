@@ -1,11 +1,11 @@
 import './App.css'
 
-import FocusInput1 from "./components/useref/FocusInput1.jsx";
+import Timer1 from "./components/useref/Timer1.jsx";
 
 export default function App() {
   return (
       <div>
-          <FocusInput1 />
+          <Timer1 />
       </div>
   )
 }
